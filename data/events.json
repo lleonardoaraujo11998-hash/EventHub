@@ -1,0 +1,38 @@
+[
+  {
+    "titulo": "Conferência de Tecnologia",
+    "data": "10/06/2026",
+    "local": "São Paulo",
+    "endereco": "Centro de Convenções, São Paulo - SP",
+    "categoria": "Tecnologia",
+    "imagem": "img/tech.jpg",
+    "descricao": "Evento sobre inovação e tecnologia",
+    "documento": "docs/tech.pdf",
+    "lat": -23.5505,
+    "lng": -46.6333
+  },
+  {
+    "titulo": "Workshop de JavaScript",
+    "data": "15/06/2026",
+    "local": "Online",
+    "endereco": "Evento Online",
+    "categoria": "Educação",
+    "imagem": "img/javascript.jpg",
+    "descricao": "Aprenda JavaScript do básico ao avançado",
+    "documento": "docs/js.pdf",
+    "lat": -22.9068,
+    "lng": -43.1729
+  },
+  {
+    "titulo": "Hackathon Universitário",
+    "data": "20/06/2026",
+    "local": "Rio Branco",
+    "endereco": "Auditório Uninorte, Rio Branco - AC",
+    "categoria": "Tecnologia",
+    "imagem": "img/hackathon.jpg",
+    "descricao": "Competição de programação entre estudantes",
+    "documento": "docs/hackathon.pdf",
+    "lat": -9.97499,
+    "lng": -67.8243
+  }
+]
