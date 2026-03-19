@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>EventHub</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+</head>
+
+<body>
+
+<div class="header">
+<h2 class="logo">🎬 EventHub</h2>
+
+<div class="user-area">
+<span id="boasVindas"></span>
+<button class="logout" onclick="logout()">Sair</button>
+</div>
+</div>
+
+<div class="filtro">
+<select id="filtroCategoria">
+<option value="todos">Todos</option>
+<option value="Tecnologia">Tecnologia</option>
+<option value="Educação">Educação</option>
+</select>
+</div>
+
+<div id="listaEventos"></div>
+
+<div class="descricao">
+<h1>🔥 Eventos que você não pode perder</h1>
+<p>Descubra eventos incríveis perto de você</p>
+</div>
+
+<div class="form">
+<h2>➕ Adicionar Evento</h2>
+
+<input id="novoTitulo" placeholder="Título">
+<input id="novoLocal" placeholder="Cidade">
+<input id="novoEndereco" placeholder="Endereço">
+<input id="novaCategoria" placeholder="Categoria">
+<input id="novaImagem" placeholder="img/arquivo.jpg">
+
+<button onclick="adicionarEvento()">Adicionar</button>
+</div>
+
+<h2 style="text-align:center;">📍 Localização</h2>
+<div id="map"></div>
+
+<script src="js/eventController.js"></script>
+</body>
+</html>
